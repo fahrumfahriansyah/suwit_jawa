@@ -63,7 +63,13 @@ setTimeout(function(){
 
 //akhir dari cara yang disarankan
 
-
+//membuat jam
+setInterval(function(){
+const jam = document.querySelector(".jam")
+const waktu =new Date()
+jam.innerHTML= waktu
+console.log(waktu)
+},1000)
 
 //cara ini kurang efektif
 
